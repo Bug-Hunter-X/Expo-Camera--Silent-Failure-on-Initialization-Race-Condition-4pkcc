@@ -1,0 +1,1 @@
+This error occurs when using the Expo Camera API and attempting to access the camera's features before the camera has fully initialized.  This often manifests as a silent failure where no error is thrown, but the camera preview remains blank or functions are unavailable. The root cause is an asynchronous operation in the camera's setup process that's not properly handled.
